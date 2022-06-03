@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    border: 0ch;
+}
+
+.messages{
+    display: flex;    
+}
+
+.contact{
+    width: 25%;
+    min-height: 100vh;
+}
+
+.contents{
+    width: 75%;
+    min-height: 100vh;
+    background-color: #e8ebe4;
+}
+
+.contents img{
+    width: 250px;
+    height: 250px;
+}
