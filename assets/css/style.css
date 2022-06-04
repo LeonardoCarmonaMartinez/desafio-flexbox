@@ -7,18 +7,39 @@
     display: flex;    
 }
 
-.contact{
+.contacts{
     width: 25%;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 10%;
+    display: flex;  
 }
 
 .contents{
     width: 75%;
     min-height: 100vh;
     background-color: #e8ebe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contents img{
     width: 250px;
     height: 250px;
+}
+
+.contents h1{
+    font-size: 3em;
+}
+
+.contents p{
+    text-align: center;
 }
